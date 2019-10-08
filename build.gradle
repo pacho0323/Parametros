@@ -27,9 +27,10 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
-String hola = System.getenv('dato')
+//String hola = System.getenv('dato')
+String greeting = System.getenv('dato')
 task hello {
     doLast {
-        println ${hola}
+        println greeting
     }
 }
