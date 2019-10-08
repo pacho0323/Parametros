@@ -28,9 +28,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 //String hola = System.getenv('dato')
-String greeting = System.getenv('dato')
+String greetin = System.getenv('dato')
 task hello {
     doLast {
-        println greeting
+        println greetin
     }
 }
